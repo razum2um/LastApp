@@ -57,6 +57,26 @@
                 </array>
             </dict>
         </dict>
+        <dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>GitHub</string>
+			<key>subtitle</key>
+			<string>Source code</string>
+			<key>url</key>
+			<string>https://github.com/razum2um/LastApp</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Follow me</string>
+			<key>subtitle</key>
+			<string>@razum2um</string>
+			<key>url</key>
+			<string>https://twitter.com/razum2um</string>
+		</dict>
     </array>
 </dict>
 </plist>

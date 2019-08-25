@@ -1,9 +1,9 @@
-Package: jp.ashikase.lastapp
-Name: LastApp
-Version: 1:1.4.0
+Package: me.razum2um.lastapp
+Name: LastApp12
+Version: 1:1.4.1
 Architecture: iphoneos-arm
 Description: Quickly switch to previous application.
-Homepage: http://github.com/ashikase/LastApp
+Homepage: http://github.com/razum2um/LastApp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lastappData
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Lance Fetters (ashikase) <support@ashikase.com>
