@@ -1,3 +1,9 @@
 [submodule "Libraries/Common"]
-	path = Libraries/Common
-	url = http://github.com/ashikase/Common
+  path = Libraries/Common
+  url = git@github.com:razum2um/Common.git
+[submodule "theos"]
+	path = theos
+	url = git@github.com:theos/theos.git
+[submodule "ldid"]
+	path = ldid
+	url = git@github.com:razum2um/ldid.git

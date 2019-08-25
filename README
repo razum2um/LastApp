@@ -1,15 +1,15 @@
 To build this project:
 
-1. Install an iOS toolchain for your system.
-2. $ bash get_requirements.sh
-3. $ export SYSROOT=<path to root of iOS SDK>
-4. $ make
+$ git submodule update --recursive --init
+$ wget -O theos/include/substrate.h https://raw.githubusercontent.com/theos/lib/master/CydiaSubstrate.framework/Headers/CydiaSubstrate.h
 
----
+# on macOS you can do this, otherwise export SYSROOT=<path to root of iOS SDK>
+$ export SYSROOT=$(xcrun --sdk iphoneos --show-sdk-path)
+$ make
 
-To create a .deb package that can be installed on your device:
-
-1. $ make package
+# to create a .deb package that can be installed on your device
+$ make package
+```
 
 NOTE: While I would prefer that you do not distribute your own package, and that
       you would instead submit any patches to me instead, if you do decide to
